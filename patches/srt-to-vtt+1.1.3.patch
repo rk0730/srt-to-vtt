@@ -1,0 +1,12 @@
+diff --git a/node_modules/srt-to-vtt/index.js b/node_modules/srt-to-vtt/index.js
+index ed89c6a..7075cde 100644
+--- a/node_modules/srt-to-vtt/index.js
++++ b/node_modules/srt-to-vtt/index.js
+@@ -35,6 +35,6 @@ module.exports = function () {
+   }
+ 
+   var parse = through.obj(write, flush)
+-  parse.push('WEBVTT FILE\r\n\r\n')
++  parse.push('WEBVTT\r\n\r\n')
+   return pumpify(utf8({newline: false, detectSize: 4095}), split(), parse)
+ }

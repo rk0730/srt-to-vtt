@@ -22,6 +22,16 @@ by Mathias Buus, licensed under the MIT License.
 npm install
 ```
 
+### Optional Patch
+
+By applying the included patch, the initial "WEBVTT FILE" header will be changed to just "WEBVTT" in the converted VTT files.
+
+To apply the patch:
+```
+npx patch-package
+```
+
+
 ## Usage
 * convert folder
 ```

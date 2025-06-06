@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "patch-package": "^8.0.0",
+    "srt-to-vtt": "^1.1.3"
+  }
+}
